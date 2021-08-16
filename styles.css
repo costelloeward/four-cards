@@ -33,11 +33,23 @@ h2,h3{
 section{
   background-color: white;
   border-radius: 0.5rem;
+   box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.4rem 1.6rem 0 rgba(0, 0, 0, 0.19);
   margin: 1.5rem 0;
   padding: 1.5rem;
   text-align: left;
 }
-
+.supervisor{
+  border-top: 0.5rem solid var(--cyan);
+}
+.team-builder{
+  border-top: 0.5rem solid var(--red);
+}
+.karma{
+  border-top: 0.5rem solid var(--orange);
+}
+.calculator{
+  border-top: 0.5rem solid var(--blue);
+}
 footer{
   margin-top: 5rem;
 }
