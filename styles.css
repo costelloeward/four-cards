@@ -1,7 +1,8 @@
 :root{
-  --red: hsl(0, 78%, 62%);
-  --cyan: hsl(180, 62%, 55%);
-  --orange: hsl(34, 97%, 64%);
+  /* colours */
+  --red:hsl(0, 78%, 62%);
+  --cyan:hsl(180, 62%, 55%);
+  --orange:hsl(34, 97%, 64%);
   --blue: hsl(212, 86%, 64%);
   --dark-grey:hsl(234, 12%, 34%);
   --grey:hsl(229, 6%, 66%);
@@ -12,11 +13,12 @@ body{
   background-color: var(--light-grey);
   color: var(--grey);
   font-family: 'Poppins', sans-serif;
+  padding: 1rem;
   text-align: center;
 }
 
-header{
-  margin:auto;
+.container{
+  margin: auto;
   max-width: 30rem;
 }
 
@@ -25,12 +27,15 @@ h1{
 }
 h2,h3{
   color: var(--dark-grey);
+  font-weight: 600;
 }
 
 section{
   background-color: white;
-  margin: auto;
-  max-width: 30rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  text-align: left;
 }
 
 footer{
