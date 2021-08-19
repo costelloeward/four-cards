@@ -53,3 +53,12 @@ section{
 footer{
   margin-top: 5rem;
 }
+
+@media(min-width:64rem){
+  .container{
+    max-width: 60rem;
+  }
+  main{
+    display: flex;
+  }
+}
