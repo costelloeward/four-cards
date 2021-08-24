@@ -43,30 +43,22 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Usimg grid-template-areas
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "card1 card2 card4"
+      "card1 card3 card4";
+  }
 ```
 
 
 ### Continued development
 
-Continue focus on grids and learn more about grid-areas
-
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. 
-- [Example resource 2](https://www.example.com) - This helped me finally understand XYZ.
+Continue focus on grids and learn more about grid areas
 
 
 
