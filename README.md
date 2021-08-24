@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/costelloeward/four-cards](https://github.com/costelloeward/four-cards)
+- Live Site URL: [https://costelloeward.github.io/four-cards/](https://costelloeward.github.io/four-cards/)
 
 ## My process
 
@@ -59,8 +59,7 @@ To see how you can add code snippets, see below:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. 
-These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Continue focus on grids and learn more about grid-areas
 
 
 
