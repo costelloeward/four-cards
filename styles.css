@@ -40,13 +40,14 @@ section {
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.4rem 1.6rem 0 rgba(0, 0, 0, 0.19);
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
 }
-img{
+
+img {
   align-self: flex-end;
   max-width: fit-content;
 }
