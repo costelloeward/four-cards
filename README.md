@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Usimg grid-template-areas
+Using grid-template-areas
 
 ```css
   main {
